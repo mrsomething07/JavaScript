@@ -1,0 +1,88 @@
+/* Reset default styling for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a consistent background color for the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url(imag/background.jpeg) ;
+}
+
+/* Container styling */
+.container {
+    backdrop-filter: blur(20px); /* Apply blur effect */
+    background-color: rgba(255, 255, 255, 0.39); /* Transparent white background */
+    max-width: 450px;
+    background:transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+/* Title styling */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333333;
+    font-size: 28px;
+}
+
+/* Input section styling */
+.input-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input {
+    flex: 1;
+    height: 60px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: transparent;
+    color: black;
+}
+
+.icon {
+    font-size: 24px;
+    margin-left: 10px;
+    color: #333333;
+}
+
+/* Button styling */
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color:transparent;
+    color:#1b2a38;
+}
+
+.button button:hover {
+    background-color:white;
+}
